@@ -14,6 +14,7 @@
 		F9C0A31C1E250E9900D8B9AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C0A31A1E250E9900D8B9AE /* LaunchScreen.storyboard */; };
 		F9C0A3271E250E9A00D8B9AE /* Amaro_Challenge_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C0A3261E250E9A00D8B9AE /* Amaro_Challenge_AppTests.swift */; };
 		F9C0A3321E250E9A00D8B9AE /* Amaro_Challenge_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C0A3311E250E9A00D8B9AE /* Amaro_Challenge_AppUITests.swift */; };
+		F9C0A3401E250F6900D8B9AE /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = F9C0A33F1E250F6900D8B9AE /* products.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F9C0A32D1E250E9A00D8B9AE /* Amaro-Challenge-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amaro-Challenge-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9C0A3311E250E9A00D8B9AE /* Amaro_Challenge_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amaro_Challenge_AppUITests.swift; sourceTree = "<group>"; };
 		F9C0A3331E250E9A00D8B9AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9C0A33F1E250F6900D8B9AE /* products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = products.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				F9C0A3181E250E9900D8B9AE /* Assets.xcassets */,
 				F9C0A31A1E250E9900D8B9AE /* LaunchScreen.storyboard */,
 				F9C0A31D1E250E9900D8B9AE /* Info.plist */,
+				F9C0A33F1E250F6900D8B9AE /* products.json */,
 			);
 			path = "Amaro-Challenge-App";
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9C0A31C1E250E9900D8B9AE /* LaunchScreen.storyboard in Resources */,
+				F9C0A3401E250F6900D8B9AE /* products.json in Resources */,
 				F9C0A3191E250E9900D8B9AE /* Assets.xcassets in Resources */,
 				F9C0A3171E250E9900D8B9AE /* Main.storyboard in Resources */,
 			);
