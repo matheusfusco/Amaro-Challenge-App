@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9C0A3121E250E9900D8B9AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C0A3111E250E9900D8B9AE /* AppDelegate.swift */; };
+		F9C0A3141E250E9900D8B9AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C0A3131E250E9900D8B9AE /* ViewController.swift */; };
+		F9C0A3171E250E9900D8B9AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C0A3151E250E9900D8B9AE /* Main.storyboard */; };
+		F9C0A3191E250E9900D8B9AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9C0A3181E250E9900D8B9AE /* Assets.xcassets */; };
+		F9C0A31C1E250E9900D8B9AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C0A31A1E250E9900D8B9AE /* LaunchScreen.storyboard */; };
+		F9C0A3271E250E9A00D8B9AE /* Amaro_Challenge_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C0A3261E250E9A00D8B9AE /* Amaro_Challenge_AppTests.swift */; };
+		F9C0A3321E250E9A00D8B9AE /* Amaro_Challenge_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C0A3311E250E9A00D8B9AE /* Amaro_Challenge_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9C0A3231E250E9A00D8B9AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9C0A3061E250E9900D8B9AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9C0A30D1E250E9900D8B9AE;
+			remoteInfo = "Amaro-Challenge-App";
+		};
+		F9C0A32E1E250E9A00D8B9AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9C0A3061E250E9900D8B9AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9C0A30D1E250E9900D8B9AE;
+			remoteInfo = "Amaro-Challenge-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9C0A30E1E250E9900D8B9AE /* Amaro-Challenge-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amaro-Challenge-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9C0A3111E250E9900D8B9AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9C0A3131E250E9900D8B9AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9C0A3161E250E9900D8B9AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9C0A3181E250E9900D8B9AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9C0A31B1E250E9900D8B9AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9C0A31D1E250E9900D8B9AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9C0A3221E250E9A00D8B9AE /* Amaro-Challenge-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amaro-Challenge-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9C0A3261E250E9A00D8B9AE /* Amaro_Challenge_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amaro_Challenge_AppTests.swift; sourceTree = "<group>"; };
+		F9C0A3281E250E9A00D8B9AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9C0A32D1E250E9A00D8B9AE /* Amaro-Challenge-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amaro-Challenge-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9C0A3311E250E9A00D8B9AE /* Amaro_Challenge_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amaro_Challenge_AppUITests.swift; sourceTree = "<group>"; };
+		F9C0A3331E250E9A00D8B9AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9C0A30B1E250E9900D8B9AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C0A31F1E250E9A00D8B9AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C0A32A1E250E9A00D8B9AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9C0A3051E250E9900D8B9AE = {
+			isa = PBXGroup;
+			children = (
+				F9C0A3101E250E9900D8B9AE /* Amaro-Challenge-App */,
+				F9C0A3251E250E9A00D8B9AE /* Amaro-Challenge-AppTests */,
+				F9C0A3301E250E9A00D8B9AE /* Amaro-Challenge-AppUITests */,
+				F9C0A30F1E250E9900D8B9AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9C0A30F1E250E9900D8B9AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9C0A30E1E250E9900D8B9AE /* Amaro-Challenge-App.app */,
+				F9C0A3221E250E9A00D8B9AE /* Amaro-Challenge-AppTests.xctest */,
+				F9C0A32D1E250E9A00D8B9AE /* Amaro-Challenge-AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9C0A3101E250E9900D8B9AE /* Amaro-Challenge-App */ = {
+			isa = PBXGroup;
+			children = (
+				F9C0A3111E250E9900D8B9AE /* AppDelegate.swift */,
+				F9C0A3131E250E9900D8B9AE /* ViewController.swift */,
+				F9C0A3151E250E9900D8B9AE /* Main.storyboard */,
+				F9C0A3181E250E9900D8B9AE /* Assets.xcassets */,
+				F9C0A31A1E250E9900D8B9AE /* LaunchScreen.storyboard */,
+				F9C0A31D1E250E9900D8B9AE /* Info.plist */,
+			);
+			path = "Amaro-Challenge-App";
+			sourceTree = "<group>";
+		};
+		F9C0A3251E250E9A00D8B9AE /* Amaro-Challenge-AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9C0A3261E250E9A00D8B9AE /* Amaro_Challenge_AppTests.swift */,
+				F9C0A3281E250E9A00D8B9AE /* Info.plist */,
+			);
+			path = "Amaro-Challenge-AppTests";
+			sourceTree = "<group>";
+		};
+		F9C0A3301E250E9A00D8B9AE /* Amaro-Challenge-AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9C0A3311E250E9A00D8B9AE /* Amaro_Challenge_AppUITests.swift */,
+				F9C0A3331E250E9A00D8B9AE /* Info.plist */,
+			);
+			path = "Amaro-Challenge-AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9C0A30D1E250E9900D8B9AE /* Amaro-Challenge-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9C0A3361E250E9A00D8B9AE /* Build configuration list for PBXNativeTarget "Amaro-Challenge-App" */;
+			buildPhases = (
+				F9C0A30A1E250E9900D8B9AE /* Sources */,
+				F9C0A30B1E250E9900D8B9AE /* Frameworks */,
+				F9C0A30C1E250E9900D8B9AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Amaro-Challenge-App";
+			productName = "Amaro-Challenge-App";
+			productReference = F9C0A30E1E250E9900D8B9AE /* Amaro-Challenge-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9C0A3211E250E9A00D8B9AE /* Amaro-Challenge-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9C0A3391E250E9A00D8B9AE /* Build configuration list for PBXNativeTarget "Amaro-Challenge-AppTests" */;
+			buildPhases = (
+				F9C0A31E1E250E9A00D8B9AE /* Sources */,
+				F9C0A31F1E250E9A00D8B9AE /* Frameworks */,
+				F9C0A3201E250E9A00D8B9AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9C0A3241E250E9A00D8B9AE /* PBXTargetDependency */,
+			);
+			name = "Amaro-Challenge-AppTests";
+			productName = "Amaro-Challenge-AppTests";
+			productReference = F9C0A3221E250E9A00D8B9AE /* Amaro-Challenge-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9C0A32C1E250E9A00D8B9AE /* Amaro-Challenge-AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9C0A33C1E250E9A00D8B9AE /* Build configuration list for PBXNativeTarget "Amaro-Challenge-AppUITests" */;
+			buildPhases = (
+				F9C0A3291E250E9A00D8B9AE /* Sources */,
+				F9C0A32A1E250E9A00D8B9AE /* Frameworks */,
+				F9C0A32B1E250E9A00D8B9AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9C0A32F1E250E9A00D8B9AE /* PBXTargetDependency */,
+			);
+			name = "Amaro-Challenge-AppUITests";
+			productName = "Amaro-Challenge-AppUITests";
+			productReference = F9C0A32D1E250E9A00D8B9AE /* Amaro-Challenge-AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9C0A3061E250E9900D8B9AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = MatheusFusco;
+				TargetAttributes = {
+					F9C0A30D1E250E9900D8B9AE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					F9C0A3211E250E9A00D8B9AE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F9C0A30D1E250E9900D8B9AE;
+					};
+					F9C0A32C1E250E9A00D8B9AE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F9C0A30D1E250E9900D8B9AE;
+					};
+				};
+			};
+			buildConfigurationList = F9C0A3091E250E9900D8B9AE /* Build configuration list for PBXProject "Amaro-Challenge-App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9C0A3051E250E9900D8B9AE;
+			productRefGroup = F9C0A30F1E250E9900D8B9AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9C0A30D1E250E9900D8B9AE /* Amaro-Challenge-App */,
+				F9C0A3211E250E9A00D8B9AE /* Amaro-Challenge-AppTests */,
+				F9C0A32C1E250E9A00D8B9AE /* Amaro-Challenge-AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9C0A30C1E250E9900D8B9AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C0A31C1E250E9900D8B9AE /* LaunchScreen.storyboard in Resources */,
+				F9C0A3191E250E9900D8B9AE /* Assets.xcassets in Resources */,
+				F9C0A3171E250E9900D8B9AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C0A3201E250E9A00D8B9AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C0A32B1E250E9A00D8B9AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9C0A30A1E250E9900D8B9AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C0A3141E250E9900D8B9AE /* ViewController.swift in Sources */,
+				F9C0A3121E250E9900D8B9AE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C0A31E1E250E9A00D8B9AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C0A3271E250E9A00D8B9AE /* Amaro_Challenge_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C0A3291E250E9A00D8B9AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C0A3321E250E9A00D8B9AE /* Amaro_Challenge_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9C0A3241E250E9A00D8B9AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9C0A30D1E250E9900D8B9AE /* Amaro-Challenge-App */;
+			targetProxy = F9C0A3231E250E9A00D8B9AE /* PBXContainerItemProxy */;
+		};
+		F9C0A32F1E250E9A00D8B9AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9C0A30D1E250E9900D8B9AE /* Amaro-Challenge-App */;
+			targetProxy = F9C0A32E1E250E9A00D8B9AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9C0A3151E250E9900D8B9AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9C0A3161E250E9900D8B9AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9C0A31A1E250E9900D8B9AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9C0A31B1E250E9900D8B9AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9C0A3341E250E9A00D8B9AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9C0A3351E250E9A00D8B9AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9C0A3371E250E9A00D8B9AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Amaro-Challenge-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MatheusFusco.Amaro-Challenge-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F9C0A3381E250E9A00D8B9AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Amaro-Challenge-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MatheusFusco.Amaro-Challenge-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F9C0A33A1E250E9A00D8B9AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Amaro-Challenge-AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MatheusFusco.Amaro-Challenge-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amaro-Challenge-App.app/Amaro-Challenge-App";
+			};
+			name = Debug;
+		};
+		F9C0A33B1E250E9A00D8B9AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Amaro-Challenge-AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MatheusFusco.Amaro-Challenge-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amaro-Challenge-App.app/Amaro-Challenge-App";
+			};
+			name = Release;
+		};
+		F9C0A33D1E250E9A00D8B9AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Amaro-Challenge-AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MatheusFusco.Amaro-Challenge-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Amaro-Challenge-App";
+			};
+			name = Debug;
+		};
+		F9C0A33E1E250E9A00D8B9AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Amaro-Challenge-AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MatheusFusco.Amaro-Challenge-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Amaro-Challenge-App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9C0A3091E250E9900D8B9AE /* Build configuration list for PBXProject "Amaro-Challenge-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9C0A3341E250E9A00D8B9AE /* Debug */,
+				F9C0A3351E250E9A00D8B9AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9C0A3361E250E9A00D8B9AE /* Build configuration list for PBXNativeTarget "Amaro-Challenge-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9C0A3371E250E9A00D8B9AE /* Debug */,
+				F9C0A3381E250E9A00D8B9AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9C0A3391E250E9A00D8B9AE /* Build configuration list for PBXNativeTarget "Amaro-Challenge-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9C0A33A1E250E9A00D8B9AE /* Debug */,
+				F9C0A33B1E250E9A00D8B9AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9C0A33C1E250E9A00D8B9AE /* Build configuration list for PBXNativeTarget "Amaro-Challenge-AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9C0A33D1E250E9A00D8B9AE /* Debug */,
+				F9C0A33E1E250E9A00D8B9AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9C0A3061E250E9900D8B9AE /* Project object */;
+}
